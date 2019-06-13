@@ -1,7 +1,5 @@
 FROM python:3.6.0-alpine
 
-RUN pip install flask pymongo
-
 WORKDIR /app
 ADD requirements.txt /app
 
